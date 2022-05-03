@@ -1,0 +1,95 @@
+
+.menu__principal{
+  position: absolute;
+  width: 375px;
+  height: 1080px;
+  left: 0px;
+  
+  
+  /* Primary Colors/brand-green-light */
+  
+  background: #DCE9E2;
+  
+}
+
+
+h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+width: 254px;
+height: 21px;
+left: 60px;
+padding-top: 40px;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 150%;
+
+letter-spacing: 0.08em;
+color: #00856F;
+}
+h1{
+  position: absolute;
+width: 327px;
+height: 132px;
+left: 24px;
+top: 78px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 130%;
+
+text-align: center;
+
+color: #212529;
+}
+p{
+  position: absolute;
+width: 327px;
+height: 108px;
+left: 24px;
+top: 234px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+
+text-align: center;
+
+
+color: #495057;
+}
+.agendar__consulta{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding: 16px 32px;
+position: absolute;
+width: 263px;
+height: 52px;
+left: 56px;
+top: 374px;
+
+background: #00856F;
+border-radius: 40px;
+color: #ffffff;
+
+}
+
+.foto__menu{
+  position: absolute;
+width: 263px;
+height: 342.53px;
+left: 56px;
+top: 486px;
+}
