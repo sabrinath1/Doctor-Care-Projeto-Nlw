@@ -1,5 +1,5 @@
 
-.menu__principal{
+.header{
   position: absolute;
   width: 375px;
   height: 1080px;
@@ -20,8 +20,9 @@ h4{
 position: absolute;
 width: 254px;
 height: 21px;
-left: 60px;
-padding-top: 40px;
+left: 80px;
+
+padding-top: 120px;
 
 
 font-family: 'DM Sans';
@@ -38,7 +39,7 @@ h1{
 width: 327px;
 height: 132px;
 left: 24px;
-top: 78px;
+top: 120px;
 
 font-family: 'DM Sans';
 font-style: normal;
@@ -50,12 +51,12 @@ text-align: center;
 
 color: #212529;
 }
-p{
+.paragrafo__principal{
   position: absolute;
 width: 327px;
 height: 108px;
 left: 24px;
-top: 234px;
+top: 260px;
 
 font-family: 'DM Sans';
 font-style: normal;
@@ -78,7 +79,7 @@ position: absolute;
 width: 263px;
 height: 52px;
 left: 56px;
-top: 374px;
+top: 390px;
 
 background: #00856F;
 border-radius: 40px;
@@ -93,3 +94,148 @@ height: 342.53px;
 left: 56px;
 top: 486px;
 }
+.informacoes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  text-align: center;
+  
+  position: absolute;
+  width: 327px;
+  height: 470px;
+  left: 24px;
+  top: 828px;
+  background: #FFFAF1;
+  
+  border: 1px solid #DCE9E2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  }
+  .pacientes__atendidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    align-self: center;
+    padding-top: 30px;
+    
+  }
+  .especialistas__disponiveis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    align-self: center;
+  }
+  .anos__mercado{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    padding-bottom: 30px;
+  }
+  .numeros__informacoes1{
+  
+    width: 167px;
+    height: 62px;
+    left: 104px;
+    top: 868px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+
+    color: #212529;
+  }
+ 
+.numeros__informacoes2{
+  
+  width: 200px;
+  height: 62px;
+  left: 150px;
+  top: 1018px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+
+  color: #212529;
+ 
+}
+.numeros__informacoes3{
+  
+  width: 200px;
+  height: 62px;
+  left: 148px;
+  top: 1168px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+
+  color: #212529;
+ 
+}
+
+
+.texto__informacoes1{
+
+align-self: center;
+width: 151px;
+height: 24px;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+
+color: #00856F;
+
+}
+.texto__informacoes2{
+
+  align-self: center;
+  width: 200px;
+  height: 24px;
+
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #00856F;
+  
+  }
+  .texto__informacoes3{
+
+    align-self: center;
+    width: 151px;
+      height: 24px;
+    
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #00856F;
+
+    
+    }
