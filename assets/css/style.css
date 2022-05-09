@@ -4,3 +4,24 @@ body{
   text-align: center;
   font-style: normal;
 }
+h4{
+  align-self: center;
+  width: 254px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #00856F;
+}
+h1{
+ 
+  width: 327px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+  color: #212529;
+}
+p{
+  color: #495057;
+}

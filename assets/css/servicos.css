@@ -1,0 +1,47 @@
+.servicos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 327px;
+  height: 1402px;
+  margin-left: 20px;
+  margin-top: 40px;
+  background: #F7F9F9;
+       
+  }
+  .texto__servicos{
+    width: 314px;
+    height: 117px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #212529;
+    margin-bottom: 10px;
+    }
+    .servicos__oferecidos{
+      box-sizing: border-box;
+      align-self: flex-start;
+      padding: 14px;
+      width: 327px;
+      height: 180px;
+      background: #FFFFFF;
+      border: 1px solid #DCE9E2;
+      border-radius: 6px;
+      background-image:url(../img/Group\ 2.png);
+      background-repeat: no-repeat;
+      background-position: 20px 20px;
+    
+    }
+
+.titulo__servicos{
+  align-self: flex-start;
+  width: 300px;
+  height: 24px;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  color: #212529;
+  margin: 16px 0px;
+} 
