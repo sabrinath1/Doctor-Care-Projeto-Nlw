@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 327px;
+  width: 100%;
   height: 1402px;
   margin-left: 20px;
   margin-top: 40px;
-  background: #F7F9F9;
+  margin-bottom: 80px;
+  background: #FFFFFF
        
   }
   .texto__servicos{
