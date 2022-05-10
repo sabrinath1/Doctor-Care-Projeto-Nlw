@@ -20,8 +20,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/botoes.css" />
-    <link rel="stylesheet" href="assets/css/contato.css"
-
+    <link rel="stylesheet" href="assets/css/contato.css">
 
   </head>
   <body>
@@ -32,13 +31,25 @@
         class="logotipo"
       />
       <button class="menu__lateral--cabecalho" aria-label="Botão Menu Lateral">
-        <img
-          src="./assets/img/Icon.png"
-          alt="Icone Menu Lateral"
-          class="icone__menu"
-        />
-      </button>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 20H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 12H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18 28L30 28" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          
+              </button>
     </header>
+    <nav class="menu-lateral">
+      
+      <img src="./assets/img/Header - Mobile - Fixed On Scroll.png" alt="Logotipo" class="menu-lateral__logo ">
+      <a href="#" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
+      <a href="#" class="menu-lateral__link ">Sobre</a>
+      <a href="#" class="menu-lateral__link ">Serviços</a>
+      <a href="#" class="menu-lateral__link ">Depoimentos</a>
+      <boton class="agendar__consulta-menuLateral">Agendar Consulta</boton>
+      <img src="./assets/img/Redes sociais.png"  alt="Logo Redees Sociais" class="redes_sociais">
+     
+  </nav>
     <! -- Inicio do Main -->
     <main>
       <div class="conteudo__principal">
@@ -195,5 +206,6 @@
       <img src="./assets/img/Redes sociais.png"  alt="Logo Redees Sociais" class="redes_sociais">
       
     </footer>
+    <script src="./assets/index.js"></script>
   </body>
 </html>

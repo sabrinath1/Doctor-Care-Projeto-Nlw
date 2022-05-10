@@ -8,3 +8,6 @@ header{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
   
 }
+.menu__lateral--cabecalho{
+  background-image: url(../img/Icon.png);
+}
