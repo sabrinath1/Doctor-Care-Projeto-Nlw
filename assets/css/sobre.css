@@ -1,0 +1,33 @@
+.sobre__nos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 900px;
+  background: #FFFAF1;
+  padding-top: 50px;
+  }
+  .titulo--sobreNos{
+    width: 314px;
+    height: 117px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 39px;
+    color: #212529;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  
+  }
+  .texto--sobreNos{
+    align-self: center;
+    justify-self:center;
+    width: 314px;
+    height: 117px;
+    text-align: justify;
+  }
+  .foto--sobreNos{
+    width: 327px;
+    height: 282px;
+    margin-top: 120px;
+  }

@@ -1,0 +1,54 @@
+.contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 735px;
+  background: #FFFFFF;
+  padding-top: 20px;
+  }
+  .titulo--contato{
+    width: 355px;
+    height: 117px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 39px;
+    color: #212529;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .endereco--contato{
+    width: 263px;
+    height: 52px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: center;
+    background-image:url(../img/map-pin\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 1px 10px;
+    
+    
+
+  }
+  .email--contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+    width: 263px;
+    height: 52px;
+    background-image:url(../img/mail\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 1px 12px;
+    
+ 
+  }
+  .foto--contato{
+    width: 327px;
+    height: 282px;
+    margin-top: 50px;
+  }
