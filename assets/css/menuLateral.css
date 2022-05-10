@@ -1,0 +1,46 @@
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+
+  background-color: #00856f;
+  width: 80vw;
+  height: 100vh;
+
+  position: absolute;
+  left: -100vw;
+  transition: .25s;
+}
+
+.menu-lateral--ativo {
+ padding-top: 10px;
+  left: 0;
+  transition: .25s;
+}
+
+.menu-lateral__logo {
+  width: 100%;
+  align-self: flex-start;
+
+}
+
+.menu-lateral__link {
+  height: 64px;
+  color: #FFFFFF;
+   display: flex;
+  align-items: center;
+}
+
+.agendar__consulta-menuLateral{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  width: 150px;
+  height: 30px;
+  
+  color: #00856F;
+  border-radius: 40px;
+  background: #ffffff;
+}
