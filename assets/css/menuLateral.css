@@ -10,6 +10,8 @@
   position: absolute;
   left: -100vw;
   transition: .25s;
+  position:fixed;
+  padding-top: 20px;
 }
 
 .menu-lateral--ativo {
@@ -43,4 +45,9 @@
   color: #00856F;
   border-radius: 40px;
   background: #ffffff;
+}
+@media screen and (min-width: 1440px){
+  .menu-lateral{
+   display: none;
+  }
 }

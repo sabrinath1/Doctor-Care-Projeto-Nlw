@@ -1,13 +1,45 @@
 header{
- 
-  display: flex;
+  display:flex;
+  /*position:fixed;
+  top:0;
+  left:0;*/
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: #00856f;
   padding: 2px 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  text-align:center;
+
   
 }
 .menu__lateral--cabecalho{
+ 
   background-image: url(../img/Icon.png);
+  background-repeat: no-repeat;
+  padding-right: 25px;
+}
+.logotipo{
+  width:133px ;
+  height: 18px;
+  padding-top: 10px;
+  align-self: flex-start;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1440px){
+  header{
+    background-color: #DCE9E2;
+    background-image: url(../img/Logo-Preto.png);
+    background-repeat: no-repeat;
+    width:100% ;
+    height: 200px;
+ 
+  }
+  .menu__lateral--cabecalho{
+    display: none;
+  }
+  .logotipo{
+    display: none;
+}
 }

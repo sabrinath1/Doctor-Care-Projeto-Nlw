@@ -48,7 +48,10 @@
  
   }
   .foto--contato{
+    align-self: center;
     width: 327px;
     height: 282px;
     margin-top: 50px;
+    margin-left: 15px;
+    
   }
