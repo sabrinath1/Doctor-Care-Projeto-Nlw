@@ -6,7 +6,7 @@ body{
 }
 h4{
   align-self: center;
-  width: 100px;
+  width: 100%;
   font-weight: 700;
   font-size: 13px;
   line-height: 150%;
@@ -15,7 +15,7 @@ h4{
 }
 h1{
  
-  width: 327px;
+  width: 100%;
   font-weight: 700;
   font-size: 34px;
   line-height: 130%;
@@ -24,4 +24,20 @@ h1{
 }
 p{
   color: #495057;
+}
+@media screen and (min-width:1120px){
+
+  h1{
+  
+    width: 605px;
+    height: 136px;
+    padding-top: 10px;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 130%;
+    text-align: start;
+    color: #212529;
+  }
+
 }

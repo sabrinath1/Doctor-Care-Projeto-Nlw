@@ -18,13 +18,18 @@
   color: #495057;
 }
 
-
-
 .foto__menu{
   width: 263px;
   height: 342.53px;
   left: 56px;
   top: 456px;
+}
+
+.bloco__informacoes{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .informacoes{
@@ -39,8 +44,7 @@
   border: 1px solid #DCE9E2;
   box-sizing: border-box;
   border-radius: 6px;
-  margin-top: -90px;
-  margin-left: 20px;
+  margin-top: -95px;
   }
 
   .pacientes__atendidos{ 
@@ -60,14 +64,113 @@
     color: #212529;
   }
 
-.texto__informacoes{
-align-self: center;
-width: 200px;
-height: 24px;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-color: #00856F;
+  .texto__informacoes{
+  align-self: center;
+  width: 200px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #00856F;
 
+  }
+
+@media screen and (min-width:1120px){
+  .conteudo__principal{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 655px;
+    background: #DCE9E2;
+  }
+  .titulo--conteudo__principal{
+    align-self: flex-start;
+    text-align: start;
+    width: 254px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 0.08em;
+    color: #00856F;
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+
+  .paragrafo__principal{
+    color: #495057;
+    width: 605px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 50px;
+    
+  }
+    .foto__principal{
+      position: sticky;
+      width: 100%;
+      height: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      top: 0;
+      left: 0;
+      
+    }
+  .foto__menu{
+    
+    width: 420px;
+    height: 547px;
+    padding-right: 160px;
+  }
+  .informacoes{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    align-items: center;
+    box-sizing: border-box;
+    width: 80%;
+    height: 200px;
+    background: #FFFAF1;
+    border: 1px solid #DCE9E2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: -83px;
+    }
+    .pacientes__atendidos{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      /*justify-content: space-between;*/
+      align-items: center;
+      align-self: center;
+      padding: 0px;
+      padding-left: 50px;
+      
+    }
+    .especialistas{
+      display: flex;
+      flex-direction: column;
+      /*justify-content: space-between;*/
+      align-items: center;
+      align-self: center;
+      width: 30%;
+      align-self: center;
+      border-right: 1px solid#00856F;
+      border-left: 1px solid#00856F;
+     
+    }
+    .anos__mercado{
+      display: flex;
+      flex-direction: column;
+      /*justify-content: space-around;*/
+      align-items: center;
+      align-self: center;
+      width: 30%;
+      align-self: center;
+      padding: 0px;
+     
+    }
 }
 

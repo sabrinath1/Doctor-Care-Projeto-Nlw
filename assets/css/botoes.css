@@ -12,3 +12,9 @@
   border-radius: 40px;
   color: #ffffff;
 }
+@media screen and (min-width:1120px){
+  .botao__agendar__consulta{
+    margin-left: 50px;
+    margin-bottom: 35px;
+  }
+}
