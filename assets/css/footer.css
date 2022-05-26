@@ -3,7 +3,7 @@ footer{
   flex-direction: column;
  justify-content: flex-start;
   width: 100%;
-  height: 230px;
+  height: 200px;
   background: #00856F;
   color: #ffffff;
 }
@@ -29,3 +29,24 @@ margin-left: 20px;
 margin-top: 20px;
 
 }
+  @media screen and (min-width:1200px){
+    footer{
+      display: flex;
+      flex-direction: column;
+     justify-content: flex-start;
+      width: 100%;
+      height: 150px;
+      background: #00856F;
+      color: #ffffff;
+      
+    }
+    .redes_sociais{
+      align-self: flex-end;
+      width: 150px;
+      height: 24px;
+      margin-left: 20px;
+      margin-top: -60px;
+      margin-right: 40px;
+      
+      }
+  }
