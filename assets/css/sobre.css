@@ -35,74 +35,44 @@
     .sobre__nos{
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
       align-items: center;
+      justify-content: center;
       flex-wrap: wrap;
       width: 100%;
       height: 500px;
       background: #FFFAF1;
-      padding-top: 20px;
-    
+      padding-top: 10px;
       }
-      .titulo--sobre__nos{
-        font-size: 30px;
+      .conteudo--sobre__nos{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
-   .conteudo--sobre__nos{
-    display: flex;
-    position: static;
-    left: 120px;
-    flex-direction: column;
-    justify-content: start;
-    width: 100%;
-    height: 415px;
-    align-items: center;
-    margin-top: 35px;
-   /* margin-right: 35px;*/
-    padding-right: 80px;
-   }
-    .titulo--sobreNos{
-    
-       width: 314px;
-       height: 117px;
-       font-weight: 700;
-       font-size: 25px;
-       line-height: 39px;
-       color: #212529;
-       margin-top: 0px;
-       margin-bottom: 10px;
-      
+     .titulo__sessao--sobre__nos{
+      width: 314px;
+      height: 117px;
+      font-weight: 700;
+      font-size: 40px;
+      align-self: center;
+     }
+       .foto--sobreNos{
+        width: 327px;
+        height: 282px;
+        margin-top: -60px;
+       
+      }
+      .texto--sobreNos{
+        align-self: center;
+        justify-self:center;
+        width: 60%;
+        height: 250px;
+        text-align: justify;
       }
       .foto--sobreNos{
-       width: 100%;
-        height: 314px;
-        margin-top: -50px;
-        position: sticky;
-        padding-left: 80px;
-      
-        
-
-      }
-      .foto__sessao--sobreNos{
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-       
-        
-      }
-      .titulo--sobreNos{
-        width: 314px;
-        height: 117px;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 39px;
-        color: #212529;
-        margin-top: 15px;
-        margin-bottom: 10px;
-      
-      }
-      .conteudo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 327px;
+        height: 282px;
+        margin-top: -350px;
+        padding-left: 500px;
       }
   }
