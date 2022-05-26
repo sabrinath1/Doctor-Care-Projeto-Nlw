@@ -1,9 +1,9 @@
-.contato{
+.sessao__contato{
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  width: 100px;
+  width: 100%;
   height: 735px;
   background: #FFFFFF;
   padding-top: 20px;
@@ -39,6 +39,7 @@
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 30px;
+    padding-bottom: 20px;
     width: 263px;
     height: 52px;
     background-image:url(../img/mail\ 1.png);
@@ -53,5 +54,24 @@
     height: 282px;
     margin-top: 50px;
     margin-left: 15px;
+    
+  }
+  @media screen and (min-width:1200px) {
+    .sessao__contato{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 500px;
+      background: #FFFFFF;
+      padding-top: 0px;
+      }
+      .contato{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     
   }
