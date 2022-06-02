@@ -21,8 +21,10 @@
 }
 
 .menu-lateral__logo {
-  width: 100%;
-  align-self: flex-start;
+  width: 50%;
+  align-self: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 
 }
 
