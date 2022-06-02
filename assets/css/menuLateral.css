@@ -1,7 +1,7 @@
 .menu-lateral {
   display: flex;
   flex-direction: column;
-    align-items: center;
+  align-items: center;
 
   background-color: #00856f;
   width: 80vw;
@@ -9,15 +9,15 @@
 
   position: absolute;
   left: -100vw;
-  transition: .25s;
-  position:fixed;
+  transition: 0.25s;
+  position: fixed;
   padding-top: 20px;
 }
 
 .menu-lateral--ativo {
- padding-top: 10px;
+  padding-top: 10px;
   left: 0;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 .menu-lateral__logo {
@@ -25,17 +25,16 @@
   align-self: center;
   padding-top: 30px;
   padding-bottom: 50px;
-
 }
 
 .menu-lateral__link {
   height: 64px;
-  color: #FFFFFF;
-   display: flex;
+  color: #ffffff;
+  display: flex;
   align-items: center;
 }
 
-.agendar__consulta-menuLateral{
+.agendar__consulta-menuLateral {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,13 +42,13 @@
   padding: 16px 32px;
   width: 150px;
   height: 30px;
-  
-  color: #00856F;
+
+  color: #00856f;
   border-radius: 40px;
   background: #ffffff;
 }
-@media screen and (min-width: 1440px){
-  .menu-lateral{
-   display: none;
+@media screen and (min-width: 1440px) {
+  .menu-lateral {
+    display: none;
   }
 }

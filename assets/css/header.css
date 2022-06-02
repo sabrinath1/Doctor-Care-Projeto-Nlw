@@ -1,44 +1,41 @@
-header{
-  display:flex;
-  position:fixed;
-  top:0;
-  left:0;
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: #00856f;
   padding: 2px 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-  text-align:center;
-
-  
+  text-align: center;
 }
-.menu__lateral--cabecalho{
- 
+.menu__lateral--cabecalho {
   background-image: url(../img/Icon.png);
   background-repeat: no-repeat;
   padding-right: 25px;
 }
-.logotipo{
-  width:133px ;
+.logotipo {
+  width: 133px;
   height: 18px;
   padding-top: 10px;
   align-self: flex-start;
   padding-bottom: 10px;
 }
-.menu-desktop{
+.menu-desktop {
   display: none;
 }
 
-@media screen and (min-width: 1200px){
-  header{
-    display:none
-  }
-  .menu__lateral--cabecalho{
+@media screen and (min-width: 1200px) {
+  header {
     display: none;
   }
-  .menu-desktop{
-    display:flex;
+  .menu__lateral--cabecalho {
+    display: none;
+  }
+  .menu-desktop {
+    display: flex;
     position: fixed;
     left: 0;
     top: 0;
@@ -50,7 +47,7 @@ header{
     width: 100%;
   }
   .logo__menu--desktop {
-    width:133px ;
+    width: 133px;
     height: 18px;
     padding-top: 10px;
     align-self: flex-start;
@@ -58,16 +55,15 @@ header{
     padding-right: 100px;
     padding-left: 50px;
   }
-  .item-menu-desktop{
+  .item-menu-desktop {
     color: #ffffff;
   }
-  .itens--menu-desktop{
+  .itens--menu-desktop {
     display: flex;
     justify-content: space-around;
     width: 80%;
-    
   }
-  .agendar__consulta-menuDesktop{
+  .agendar__consulta-menuDesktop {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -77,36 +73,30 @@ header{
     height: 30px;
     /*left: 56px;
     top: 350px;*/
-    background: #00856F;
+    background: #00856f;
     border-radius: 40px;
-    color: #00856F;
+    color: #00856f;
   }
-  .redes_sociais-desktop{
-      align-self: center;
-      width: 150px;
-      height: 24px;
-      margin-left: 40px;
-      /*margin-top: -10px;*/
-      margin-right: 40px;
-      padding-left: 300px;
-      
-      
+  .redes_sociais-desktop {
+    align-self: center;
+    width: 150px;
+    height: 24px;
+    margin-left: 40px;
+    /*margin-top: -10px;*/
+    margin-right: 40px;
+    padding-left: 300px;
   }
-  .logo-menu-deskto{
+  .logo-menu-deskto {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-left: 50px;
     width: 50%;
-
   }
-  a:hover{
+  a:hover {
     color: #ffffff;
   }
-  a:is(:link, :active, :visited).active{
+  a:is(:link, :active, :visited).active {
     border-bottom: 3px solid #ffffff;
-    
-    
-    
   }
 }
