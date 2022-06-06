@@ -1,78 +1,129 @@
-.sobre__nos{
+/*Versão Mobile*/
+/*Página Inicio - Sessão Sobre Nós*/
+.sobre__nos {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
   height: 900px;
-  background: #FFFAF1;
+  background: #fffaf1;
   padding-top: 50px;
+}
+.titulo--sobreNos {
+  width: 314px;
+  height: 117px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  color: #212529;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.texto--sobreNos {
+  align-self: center;
+  justify-self: center;
+  width: 314px;
+  height: 250px;
+  text-align: justify;
+}
+.foto--sobreNos {
+  width: 327px;
+  height: 282px;
+  margin-top: 120px;
+}
+/*Página Sobre*/
+.sessao-sobreNos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+}
+.conteudo--sessao-sobreNos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.titulo--sessao-sobreNos {
+  width: 314px;
+  height: 117px;
+  font-weight: 700;
+  font-size: 40px;
+  align-self: center;
+  padding-top: 300px;
+}
+.conteudo--sessao-sobreNos {
+  padding-top: 0px;
+  align-items: center;
+}
+/*Versão Desktop*/
+@media screen and (min-width: 1120px) {
+  /*Página Sobre*/
+  .sessao-sobreNos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
   }
-  .titulo--sobreNos{
+  .conteudo--sessao-sobreNos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+  }
+  .titulo--sessao-sobreNos {
     width: 314px;
     height: 117px;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 39px;
-    color: #212529;
-    margin-top: 15px;
-    margin-bottom: 10px;
-  
-  }
-  .texto--sobreNos{
+    font-size: 40px;
     align-self: center;
-    justify-self:center;
+    padding-top: 300px;
+  }
+  .conteudo--sessao-sobreNos {
+    padding-top: 0px;
+    align-items: center;
+  }
+  /*Página Inicio - Sessão Sobre Nós*/
+  .sobre__nos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    background: #fffaf1;
+    padding-top: 10px;
+  }
+  .conteudo--sobre__nos {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo__sessao--sobre__nos {
     width: 314px;
+    height: 117px;
+    font-weight: 700;
+    font-size: 40px;
+    align-self: center;
+  }
+  .texto--sobreNos {
+    align-self: center;
+    justify-self: center;
+    width: 60%;
     height: 250px;
     text-align: justify;
   }
-  .foto--sobreNos{
+  .foto--sobreNos {
     width: 327px;
     height: 282px;
-    margin-top: 120px;
+    margin-top: -350px;
+    padding-left: 500px;
   }
-  @media screen and (min-width:1120px){
-    .sobre__nos{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      width: 100%;
-      height: 500px;
-      background: #FFFAF1;
-      padding-top: 10px;
-      }
-      .conteudo--sobre__nos{
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-     .titulo__sessao--sobre__nos{
-      width: 314px;
-      height: 117px;
-      font-weight: 700;
-      font-size: 40px;
-      align-self: center;
-     }
-       .foto--sobreNos{
-        width: 327px;
-        height: 282px;
-        margin-top: -60px;
-       
-      }
-      .texto--sobreNos{
-        align-self: center;
-        justify-self:center;
-        width: 60%;
-        height: 250px;
-        text-align: justify;
-      }
-      .foto--sobreNos{
-        width: 327px;
-        height: 282px;
-        margin-top: -350px;
-        padding-left: 500px;
-      }
-  }
+}

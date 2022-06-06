@@ -1,52 +1,50 @@
-footer{
+/*Versão Mobile*/
+
+footer {
   display: flex;
   flex-direction: column;
- justify-content: flex-start;
+  justify-content: flex-start;
   width: 100%;
   height: 200px;
-  background: #00856F;
+  background: #00856f;
   color: #ffffff;
 }
-.informacoes--footer{
+.informacoes--footer {
   color: #ffffff;
   align-self: flex-start;
   margin-bottom: 10px;
   margin-left: 20px;
 }
-.logotipoMobile-footer{
+.logotipoMobile-footer {
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 20px;
   width: 200px;
-  height: 31px
-
-  
+  height: 31px;
 }
-.redes_sociais{
-width: 150px;
-height: 24px;
-margin-left: 20px;
-margin-top: 20px;
-
+.redes_sociais {
+  width: 150px;
+  height: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
-  @media screen and (min-width:1200px){
-    footer{
-      display: flex;
-      flex-direction: column;
-     justify-content: flex-start;
-      width: 100%;
-      height: 150px;
-      background: #00856F;
-      color: #ffffff;
-      
-    }
-    .redes_sociais{
-      align-self: flex-end;
-      width: 150px;
-      height: 24px;
-      margin-left: 20px;
-      margin-top: -60px;
-      margin-right: 40px;
-      
-      }
+/*Versão Desktop*/
+@media screen and (min-width: 1200px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 150px;
+    background: #00856f;
+    color: #ffffff;
   }
+  .redes_sociais {
+    align-self: flex-end;
+    width: 150px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: -60px;
+    margin-right: 40px;
+  }
+}

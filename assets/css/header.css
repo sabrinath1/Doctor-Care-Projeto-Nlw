@@ -1,3 +1,4 @@
+/*Versão Mobile*/
 header {
   display: flex;
   position: fixed;
@@ -26,7 +27,7 @@ header {
 .menu-desktop {
   display: none;
 }
-
+/*Versão Desktop*/
 @media screen and (min-width: 1200px) {
   header {
     display: none;
@@ -61,7 +62,8 @@ header {
   .itens--menu-desktop {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    margin-left: 100px;
+    width: 100%;
   }
   .agendar__consulta-menuDesktop {
     display: flex;
@@ -71,8 +73,6 @@ header {
     padding: 16px 32px;
     width: 350px;
     height: 30px;
-    /*left: 56px;
-    top: 350px;*/
     background: #00856f;
     border-radius: 40px;
     color: #00856f;
@@ -82,7 +82,6 @@ header {
     width: 150px;
     height: 24px;
     margin-left: 40px;
-    /*margin-top: -10px;*/
     margin-right: 40px;
     padding-left: 300px;
   }
@@ -92,11 +91,5 @@ header {
     justify-content: flex-start;
     margin-left: 50px;
     width: 50%;
-  }
-  a:hover {
-    color: #ffffff;
-  }
-  a:is(:link, :active, :visited).active {
-    border-bottom: 3px solid #ffffff;
   }
 }

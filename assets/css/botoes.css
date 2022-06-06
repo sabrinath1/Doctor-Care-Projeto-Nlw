@@ -1,4 +1,5 @@
-.botao__agendar__consulta{
+/*Versão Mobile*/
+.botao__agendar__consulta {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -6,14 +7,13 @@
   padding: 16px 32px;
   width: 263px;
   height: 52px;
-  left: 56px;
-  top: 350px;
-  background: #00856F;
+  background: #00856f;
   border-radius: 40px;
   color: #ffffff;
 }
-@media screen and (min-width:1120px){
-  .botao__agendar__consulta{
+/*Versão Desktop*/
+@media screen and (min-width: 1120px) {
+  .botao__agendar__consulta {
     margin-left: 50px;
     margin-bottom: 35px;
   }
