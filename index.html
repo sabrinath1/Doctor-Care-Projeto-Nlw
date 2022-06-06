@@ -23,6 +23,7 @@
 
   </head>
   <body>
+    <!-- Inicio do HEADER -->
     <header>
       <img
         src="./assets/img/Logo.png"
@@ -39,27 +40,30 @@
           
       </button>
     </header>
-      <nav class="menu-lateral">
+    <!-- FIM do Main -->
+    <!-- Inicio do Menu Lateral Mobile-->
+    <nav class="menu-lateral">
       
       <img src="./assets/img/Logo.png" alt="Logotipo" class="menu-lateral__logo ">
-      <a href="#" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
-      <a href="#" class="menu-lateral__link ">Sobre</a>
-      <a href="#" class="menu-lateral__link ">Serviços</a>
-      <a href="#" class="menu-lateral__link ">Depoimentos</a>
+      <a href="./index.html" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo active">Início</a>
+      <a href="./sobre.html" class="menu-lateral__link ">Sobre</a>
+      <a href="./servicos.html" class="menu-lateral__link ">Serviços</a>
+      <a href="./contato.html" class="menu-lateral__link ">Contato</a>
       <boton class="agendar__consulta-menuLateral">Agendar Consulta</boton>
       <img src="./assets/img/Redes sociais.png"  alt="Logo Redees Sociais" class="redes_sociais">
      
     </nav>
+    <!-- Inicio do Menu Desktop-->
     <nav class="menu-desktop">
       <div class="logo-menu-desktop">
-      <img src="./assets/img/Logo.png" alt="Logotipo" class="logo__menu--desktop ">
+        <img src="./assets/img/Logo.png" alt="Logotipo" class="logo__menu--desktop ">
       </div>
-      <div class="itens--menu-desktop">
-      <a href="./index.html" class="item-menu-desktop active">Início</a>
-      <a href="./sobre.html" class="item-menu-desktop ">Sobre</a>
-      <a href="./servicos.html" class="item-menu-desktop ">Serviços</a>
-      <a href="./depoimentos.html" class="item-menu-desktop ">Depoimentos</a>
-      <img src="./assets/img/Redes sociais.png"  alt="Logo Redees Sociais" class="redes_sociais-desktop">
+        <div class="itens--menu-desktop">
+        <a href="./index.html" class="item-menu-desktop active">Início</a>
+        <a href="./sobre.html" class="item-menu-desktop ">Sobre</a>
+        <a href="./servicos.html" class="item-menu-desktop ">Serviços</a>
+        <a href="./contato.html" class="item-menu-desktop ">Contato</a>
+        <img src="./assets/img/Redes sociais.png"  alt="Logo Redees Sociais" class="redes_sociais-desktop">
       
       </div>
   
@@ -92,32 +96,32 @@
           Agende sua Consulta
         </button>
         <div class="foto__principal">
-        <img
-          src="./assets/img/Foto.png"
-          alt="Foto Pessoa Sorrindo"
-          class="foto__menu"
-        />
-      </div>
+          <img
+            src="./assets/img/Foto.png"
+            alt="Foto Pessoa Sorrindo"
+            class="foto__menu"
+          />
+        </div>
       </div>
     </main>
     <!-- Fim do Main -->
     <!-- Começo da Sessão Serviços -->
     <div class="bloco__informacoes">
-    <div class="informacoes">
-      <div class="pacientes__atendidos">
-        <h3 class="numeros__informacoes">+3500</h3>
-        <p class="texto__informacoes">Pacientes atendidos</p>
+      <div class="informacoes">
+        <div class="pacientes__atendidos">
+          <h3 class="numeros__informacoes">+3500</h3>
+          <p class="texto__informacoes">Pacientes atendidos</p>
+        </div>
+        <div class="especialistas">
+          <h3 class="numeros__informacoes">+15</h3>
+          <p class="texto__informacoes">Especialistas Disponíveis</p>
+        </div>
+        <div class="anos__mercado">
+          <h3 class="numeros__informacoes">+10</h3>
+          <p class="texto__informacoes">Anos no Mercado</p>
+        </div>
       </div>
-      <div class="especialistas">
-        <h3 class="numeros__informacoes">+15</h3>
-        <p class="texto__informacoes">Especialistas Disponíveis</p>
-      </div>
-      <div class="anos__mercado">
-        <h3 class="numeros__informacoes">+10</h3>
-        <p class="texto__informacoes">Anos no Mercado</p>
-      </div>
-    </div>
-  </div>
+   </div>
     <div class="sessao__servicos">
       <h4 class ="titulo-servicos">Serviços</h4>
       <h3 class="texto__servicos">Como podemos ajudá-lo a se sentir melhor?</h3>
@@ -182,19 +186,19 @@
           alt="Foto Medicos Conversando"
           class="foto--sobreNos"/>
         
-    </div>
+     </div>
     </div>
     <!-- Fim da Sessão Sobre Nós -->
-    
+    <!-- Inicio da Sessão Contato -->
     <div class="sessao__contato">
       <div class="contato">
-      <h3 class="titulo--contato">Entre em contato com a gente!</h3>
-      <div class="endereco--contato">
-      <p >R. Amauri Souza, 346</p>
-    </div>
-    <div class="email--contato">
-      <p >contato@beautysalon.com</p>
-    </div>
+        <h3 class="titulo--contato">Entre em contato com a gente!</h3>
+        <div class="endereco--contato">
+        <p >R. Amauri Souza, 346</p>
+      </div>
+      <div class="email--contato">
+        <p >contato@beautysalon.com</p>
+      </div>
       <button class="botao__agendar__consulta">
         <svg
           width="20"
@@ -212,18 +216,18 @@
         Agende sua Consulta
       </button>
         </svg>
-      </div>
-      <div class="foto--sessao__contato">
+        </div>
+       <div class="foto--sessao__contato">
         <img
-    src="./assets/img/imagem-contato.png"
-    alt="Foto Medicos Conversando"
-    class="foto--contato"
-  />
-</div>
-    </div>
+        src="./assets/img/imagem-contato.png"
+        alt="Foto Medicos Conversando"
+        class="foto--contato"
+      />
+      </div>
+  </div>
+    <!-- Fim da Sessão Contato -->
+    <!-- Inicio da Sessão Footer -->
     <footer>
-      
-        
       <img
         src="./assets/img/Logo.png"
         alt="Logototipo Doctor Care"
@@ -236,6 +240,7 @@
       <img src="./assets/img/Redes sociais.png"  alt="Logo Redees Sociais" class="redes_sociais">
     
     </footer>
+    <!-- Fim da Sessão Footer -->
     <script src="./assets/index.js"></script>
     <script src="./activePage.js"></script>
   </body>
