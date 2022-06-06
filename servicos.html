@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serviços</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
@@ -20,22 +20,160 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/botoes.css" />
-    <link rel="stylesheet" href="assets/css/contato.css">
-</head>
-<body>
-  <nav class="menu-desktop">
-    <div class="logo-menu-desktop">
-    <img src="./assets/img/Logo.png" alt="Logotipo" class="logo__menu--desktop ">
-    </div>
-    <div class="itens--menu-desktop">
-    <a href="./index.html" class="item-menu-desktop ">Início</a>
-    <a href="./sobre.html" class="item-menu-desktop ">Sobre</a>
-    <a href="./servicos.html" class="item-menu-desktop active ">Serviços</a>
-    <a href="./depoimentos.html" class="item-menu-desktop ">Depoimentos</a>
-    <img src="./assets/img/Redes sociais.png"  alt="Logo Redees Sociais" class="redes_sociais-desktop">
-    
-    </div>
+    <link rel="stylesheet" href="assets/css/contato.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/img/Logo.png"
+        alt="Logototipo Doctor Care"
+        class="logotipo"
+      />
+
+      <button class="menu__lateral--cabecalho" aria-label="Botão Menu Lateral">
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 20H30"
+            stroke="#FFFAF1"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M10 12H30"
+            stroke="#FFFAF1"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18 28L30 28"
+            stroke="#FFFAF1"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </header>
+    <nav class="menu-lateral">
+      <img
+        src="./assets/img/Logo.png"
+        alt="Logotipo"
+        class="menu-lateral__logo"
+      />
+      <a
+        href="./index.html"
+        class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo"
+        >Início</a
+      >
+      <a href="./sobre.html" class="menu-lateral__link">Sobre</a>
+      <a href="./servicos.html" class="menu-lateral__link active">Serviços</a>
+      <a href="./contato.html" class="menu-lateral__link">Contato</a>
+      <boton class="agendar__consulta-menuLateral">Agendar Consulta</boton>
+      <img
+        src="./assets/img/Redes sociais.png"
+        alt="Logo Redees Sociais"
+        class="redes_sociais"
+      />
+    </nav>
+    <nav class="menu-desktop">
+      <div class="logo-menu-desktop">
+        <img
+          src="./assets/img/Logo.png"
+          alt="Logotipo"
+          class="logo__menu--desktop"
+        />
+      </div>
+      <div class="itens--menu-desktop">
+        <a href="./index.html" class="item-menu-desktop">Início</a>
+        <a href="./sobre.html" class="item-menu-desktop">Sobre</a>
+        <a href="./servicos.html" class="item-menu-desktop active">Serviços</a>
+        <a href="./contato.html" class="item-menu-desktop">Contato</a>
+        <img
+          src="./assets/img/Redes sociais.png"
+          alt="Logo Redees Sociais"
+          class="redes_sociais-desktop"
+        />
+      </div>
+    </nav>
+    <section>
+      <div class="sessao__servicos">
+        <h4 class="titulo--sessao__servicos">Serviços</h4>
+        <h3 class="texto__servicos">
+          Como podemos ajudá-lo a se sentir melhor?
+        </h3>
+        <div class="servicos__oferecidos">
+          <div class="servico">
+            <h3 class="titulo__servicos">Problemas Digestivos</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim
+            </p>
+          </div>
+          <div class="servico">
+            <h3 class="titulo__servicos">Saúde Hormonal</h3>
+            <p class="descricao__servicos">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim
+            </p>
+          </div>
+          <div class="servico">
+            <h3 class="titulo__servicos">Bem-Estar Mental</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim
+            </p>
+          </div>
+          <div class="servico">
+            <h3 class="titulo__servicos">Cuidados Pediatricos</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim
+            </p>
+          </div>
+          <div class="servico">
+            <h3 class="titulo__servicos">Autoimune e Inflamação</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim
+            </p>
+          </div>
+          <div class="servico">
+            <h3 class="titulo__servicos">Saúde do Coração</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <img
+        src="./assets/img/Logo.png"
+        alt="Logototipo Doctor Care"
+        class="logotipoMobile-footer"
+      />
+
+      <p class="informacoes--footer">©2021 Beautysalon</p>
+      <p class="informacoes--footer">Todos os direitos reservados.</p>
+
+      <img
+        src="./assets/img/Redes sociais.png"
+        alt="Logo Redees Sociais"
+        class="redes_sociais"
+      />
+    </footer>
+
+    <script src="./assets/index.js"></script>
     <script src="./activePage.js"></script>
-</body>
-<!-- COMMENT -->
+  </body>
+  <!-- COMMENT -->
 </html>
